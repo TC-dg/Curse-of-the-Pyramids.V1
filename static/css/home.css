@@ -24,3 +24,29 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.header {
+    width: 100vw;
+    height: 100px;
+    /* background-color: gray; */
+}
+
+.content {
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(228, 227, 227);
+    /* display: none; */
+}
+
+.content iframe {
+    margin-top: 20%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80px;
+    /* background-color: gray; */
+    
+}
