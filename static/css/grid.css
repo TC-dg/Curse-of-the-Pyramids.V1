@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Roboto;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: rgb(99, 122, 122); */
+    text-align: center;
+    height: 100vh;
+    /* border: 2px solid rgb(255, 255, 255); */
+    
+}
