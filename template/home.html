@@ -16,15 +16,40 @@
     <div class="main">
         <div class="header">
             <h1>home page</h1>
-            <button onclick="login()" id="1">
-                123
-            </button>
         </div>
         <div class="content">
             <iframe id="grid" src="./bag.html" height="100%" width="100%"></iframe>
+            
         </div>
         <div class="footer">
-            <h1>footer</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2" id="f01">
+                        <img src="../static/pic/user.png" width="40" height="40" onclick="npc()">
+                        npc
+                    </div>
+                    <div class="col-2" id="f02">
+                        <img src="../static/pic/input.png" width="40" height="40" onclick="get()">
+                        輸入
+                    </div>
+                    <div class="col-2" id="f03">
+                        <img src="../static/pic/backpack.png" width="40" height="40" onclick="bag()">
+                        背包
+                    </div>
+                    <div class="col-2" id="f04">
+                        <img src="../static/pic/maps.png" width="40" height="40" onclick="map()">
+                        地圖
+                    </div>
+                    <div class="col-2" id="f05">
+                        <img src="../static/pic/scroll.png" width="40" height="40" onclick="mission()">
+                        進度
+                    </div>
+                    <div class="col-2" id="f06">
+                        <img src="../static/pic/home.png" width="40" height="40" onclick="home()">
+                        首頁
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
