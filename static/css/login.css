@@ -66,3 +66,9 @@ input[type='password']:focus {
     width: auto;
     transition: 0.5s;
 }
+
+button {
+    font-size: larger;
+    width: 60px;
+    height: 30px;
+}

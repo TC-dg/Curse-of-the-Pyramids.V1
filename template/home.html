@@ -15,10 +15,22 @@
 <body>
     <div class="main">
         <div class="header">
-            <h1>home page</h1>
+            <!-- <h1>home page</h1> -->
+            <div class="san" id="san">
+                善值:
+            </div>
+            <div class="progress">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" id="sanbar"
+                    role="progressbar" style="width: 75%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    75%
+                </div>
+            </div>
+            <div class="teamname" id="tn_display">
+                 隊名:
+            </div>
         </div>
         <div class="content">
-            <iframe id="grid" src="./bag.html" height="100%" width="100%"></iframe>
+            <iframe id="grid" src="" height="100%" width="100%"></iframe>
             
         </div>
         <div class="footer">
@@ -29,7 +41,7 @@
                         npc
                     </div>
                     <div class="col-2" id="f02">
-                        <img src="../static/pic/input.png" width="40" height="40" onclick="get()">
+                        <img src="../static/pic/input.png" width="40" height="40" onclick="input()">
                         輸入
                     </div>
                     <div class="col-2" id="f03">

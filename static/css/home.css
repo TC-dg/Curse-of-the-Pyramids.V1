@@ -28,7 +28,28 @@ body {
 .header {
     width: 100vw;
     height: 100px;
-    /* background-color: gray; */
+    background-color: gray;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.san {
+    float: left;
+}
+
+.progress {
+    margin-top: 10px;
+    margin-left: 3px;
+    float: left;
+    width: 25%;
+    height: 15px;
+    animation-fill-mode: forwards;
+    animation-name: beforeye;
+    animation-duration: 5s;
+}
+
+.teamname {
+    float: right;
 }
 
 .content {
