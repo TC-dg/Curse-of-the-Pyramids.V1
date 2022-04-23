@@ -1,4 +1,3 @@
-
 var username;
 var team = {name:""};
 $(".content").css("dispaly", "none");
@@ -21,9 +20,9 @@ function reset(team) {
 // console.log(a);
 // alert("b[0] = " + a[0]);
 
-alert(team.name);
+// alert(team.name);
 
-document.getElementById("tn_display").innerHTML = "隊名:" + a[0];
+document.getElementById("tn_display").innerHTML = "隊伍:Team01";
 
 function home() {
     $("#f01").css("border", "0px");
@@ -31,7 +30,7 @@ function home() {
     $("#f03").css("border", "0px");
     $("#f04").css("border", "0px");
     $("#f05").css("border", "0px");
-    $("#f06").css("border", "2px solid white");
+    // $("#f06").css("border", "2px solid white");
     $(".content").css("border", "0px");
     grid.src = "";
 }
@@ -104,3 +103,34 @@ function A() {
     pobj.removeChild(obj);
     // console.log(obj.innerHTML);
 }
+
+function submit(){
+    alert("提交成功");
+}
+// var title = document.getElementById("title");
+// var content = document.getElementById("content");
+// var btn = document.getElementById("btn");
+// var list = document.getElementById("list");
+
+// var count = 0;
+
+// btn.addEventListener("click", () => {
+//     count = count + 1;
+//     alert(count);
+//     list.innerHTML = list.innerHTML + `
+//     <div class="article" id="${count}">
+//         <h2>${title.value}</h2>
+//         <p>${content.value}</p>
+//         <hr>
+//     </div>
+//     `
+// })
+
+// var clear = document.getElementById("clear");
+// var clearbtn = document.getElementById("clearbtn");
+
+// clearbtn.addEventListener("click", () => {
+//     var obj = document.getElementById(`${clear.value}`);
+//     var pobj = obj.parentNode;
+//     pobj.removeChild(obj);
+// })
