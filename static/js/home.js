@@ -22,7 +22,7 @@ function reset(team) {
 
 // alert(team.name);
 
-document.getElementById("tn_display").innerHTML = "隊伍:Team01";
+// document.getElementById("tn_display").innerHTML = "隊伍:Team01";
 
 function home() {
     $("#f01").css("border", "0px");
@@ -30,7 +30,7 @@ function home() {
     $("#f03").css("border", "0px");
     $("#f04").css("border", "0px");
     $("#f05").css("border", "0px");
-    // $("#f06").css("border", "2px solid white");
+    // $("#f06").css("background-color", "rgb(114, 82, 47)");
     $(".content").css("border", "0px");
     grid.src = "";
 }
@@ -42,7 +42,8 @@ function npc() {
     $("#f04").css("border", "0px");
     $("#f05").css("border", "0px");
     $("#f01").css("border", "2px solid white");
-    $(".content").css("border", "5px solid rgb(163, 60, 0)");
+    // $("#f01").css("background-color", "rgb(114, 82, 47)");
+    $(".content").css("border", "5px solid rgb(179, 179, 179)");
     grid.src = "./npc.html";
 }
 
@@ -53,7 +54,7 @@ function input() {
     $("#f04").css("border", "0px");
     $("#f05").css("border", "0px");
     $("#f02").css("border", "2px solid white");
-    $(".content").css("border", "5px solid rgb(163, 60, 0)");
+    $(".content").css("border", "5px solid rgb(179, 179, 179)");
     grid.src = "./input.html";
 }
 
@@ -64,7 +65,7 @@ function bag() {
     $("#f04").css("border", "0px");
     $("#f05").css("border", "0px");
     $("#f03").css("border", "2px solid white");
-    $(".content").css("border", "5px solid rgb(163, 60, 0)");
+    $(".content").css("border", "5px solid rgb(179, 179, 179)");
     grid.src = "./npc.html";
 }
 
@@ -75,19 +76,19 @@ function map() {
     $("#f06").css("border", "0px");
     $("#f05").css("border", "0px");
     $("#f04").css("border", "2px solid white");
-    $(".content").css("border", "5px solid rgb(163, 60, 0)");
-    grid.src = "./npc.html";
+    $(".content").css("border", "5px solid rgb(179, 179, 179)");
+    grid.src = "./map.html";
 }
 
-function mission() {
+function progress() {
     $("#f01").css("border", "0px");
     $("#f02").css("border", "0px");
     $("#f03").css("border", "0px");
     $("#f04").css("border", "0px");
     $("#f06").css("border", "0px");
     $("#f05").css("border", "2px solid white");
-    $(".content").css("border", "5px solid rgb(163, 60, 0)");
-    grid.src = "./npc.html";
+    $(".content").css("border", "5px solid rgb(179, 179, 179)");
+    grid.src = "./progress.html";
 }
 
 function A() {
@@ -107,6 +108,7 @@ function A() {
 function submit(){
     alert("提交成功");
 }
+
 // var title = document.getElementById("title");
 // var content = document.getElementById("content");
 // var btn = document.getElementById("btn");
